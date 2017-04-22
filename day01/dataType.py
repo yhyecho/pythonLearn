@@ -44,7 +44,7 @@ print(False)
 print(3 > 2)
 print(3 > 5)
 
-# 布尔值可以用and、or和not运算。
+# 4.布尔值可以用and、or和not运算。
 
 # 1）and运算是与运算，只有所有都为True，and运算结果才是True：
 print('and 运算符')
@@ -61,7 +61,7 @@ print(False or True)
 print(False or False)
 print(5 > 3 or 1 > 3)
 
-# not运算是非运算，它是一个单目运算符，把True变成False，False变成True：
+# 3) not运算是非运算，它是一个单目运算符，把True变成False，False变成True：
 print('not 运算符')
 print(not True)
 print(not False)
@@ -74,7 +74,7 @@ if age >= 18:
 else:
     print('teenager')
 
-# 空值
+# 5.空值
 # 空值是Python里一个特殊的值，用None表示。
 # None不能理解为0，因为0是有意义的，而None是一个特殊的空值。
 # 此外，Python还提供了列表、字典等多种数据类型，还允许创建自定义数据类型
